@@ -3,11 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Francis's Resume</title>
 
-<h1>My name is Francis Tumba</h1>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
 <body>
-    
+<!-- The header-->
+<header style="display: flex; align-items: center; justify-content: space-between; max-width: 1000px; margin: 0 auto; padding: 20px 0;">
+    <div>
+        <p>
+            <!--adding the titles-->
+            <h1>Francis Tumba</h1>
+            <p> Computer Science Student | Data Engineer
+            </p>
+        </p>
+    </div>
+    <!--adding the images on the other side-->
+    <div>
+        <img src="profile.png" alt="profile" style="width: 120px; height: 120px; border-radius: 50%;">
+    </div>
+</header>
+<!--Making a split side and side layout-->
+<div style="display: flex; max-width: 1000px; margin: 0 auto;">
+    <div style="width: 30%; padding-right: 20px;">
+        <h2> Contact Information</h2>
+        <p> Email: <a href="tumbfo04@uwgb.edu">tumbfo04@uwgb.edu</a></p>
+        <p> Phone: +1 920 305 5481</p>
+        <p>Location: Green bay Wiscousin USA</p>
+        
+        <!--ordered list-->
+        <h2>Skills</h2>
+        <ol type="a" >
+            <li>Python</li>
+            <li>Data Science</li>
+            <li>Machine Learning</li>
+            <li>Web Development</li>
+        </ol>
+        <h2> Interest</h2>
+        <!-- unordered list-->
+        <ul >
+            <li>Artificial Intelligence</li>
+            <li>Blockchain Technology</li>
+            <li>Photography</li>
+            <li>Content Creating</li>
+        </ul>
+    </div>
+
+<div style="width: 70%; padding-left: 20px;">
+<!-- Other side -->
+<h2> About Me</h2>
+<p> 
+I am a Computer Science student with hands-on experience as a Data Engineer. I am passionate about learning and applying data-driven solutions to tackle real-world challenges in technology.
+</p>
+<h2>Experience</h2>
+<!-- border table -->
+<table border="1" style="width: 100%; margin: 10px 0;">
+    <tr>
+        <th>Company</th>
+        <th>Position</th>
+        <th>Duration</th>
+    </tr>
+    <tr>
+        <td>IBM</td>
+        <td>Data Engineer</td>
+        <td>2019 - 2023</td>
+    </tr>
+    <tr>
+        <td>UWGB</td>
+        <td>IT Support</td>
+        <td>2024 - Current</td>
+    </tr>
+</table>
+<h2>Education</h2>
+<!-- No border table -->
+<table>
+    <tr>
+        <td>Diploma in Computer Engineering</td>
+        <td>University of Cape Town</td>
+        <td>2015 - 2018</td>
+    </tr>
+    <tr>
+        <td>Bachelor's in Computer Science</td>
+        <td>University of Wisconsin-Green Bay</td>
+        <td>2024 - Current</td>
+    </tr>
+</table>
+
+<h2>Projects</h2>
+<!--links to next page-->
+<p>Check out my <a href="project.html" target="_blank">Projects</a>.</p>
+<p>Visit my <a href="https://github.com/Engineer-Tumba/Engineer-Tumba.github.io" target="_blank"><img src="github-icon.png" alt="github" width="20">Github</a> page.</p>
+</div>
+</div>
+<!-- Special Charater and Emoji -->
+<footer style="text-align: center; padding: 20px; background-color: #4CAF50; color: white;">
+    <p>&copy; 2024 Francis Tumba &bull; Made with ❤️</p>
+</footer>
 </body>
 </html>
